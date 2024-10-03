@@ -38,31 +38,31 @@ $students = array();
 $controlflow = new Control_flow();
 
 $student1 = new Variables('Alicia', '2005-12-19', 'Female', 4.0, true);
-$student1->display();
+// $student1->display();
 $students[] = $student1->name;
 $controlflow->checkAge($student1->age_thn);
 echo "<br>";
 
 $student2 = new Variables('Chaiden', '2005-09-11', 'Male', 4.0, true);
-$student2->display();
+// $student2->display();
 $students[] = $student2->name;
 $controlflow->checkAge($student2->age_thn);
 echo "<br>";
 
 $student3 = new Variables('Leo', '2006-04-01', 'Male', 4.0, true);
-$student3->display();
+// $student3->display();
 $students[] = $student3->name;
 $controlflow->checkAge($student3->age_thn);
 echo "<br>";
 
 $student4 = new Variables('Feli', '2005-01-21', 'Female', 4.0, true);
-$student4->display();
+// $student4->display();
 $students[] = $student4->name;
 $controlflow->checkAge($student4->age_thn);
 echo "<br>";
 
 $student5 = new Variables('Aurel', '2006-12-30', 'Female', 4.0, true);
-$student5->display();
+// $student5->display();
 $students[] = $student5->name;
 $controlflow->checkAge($student5->age_thn);
 echo "<br>";
